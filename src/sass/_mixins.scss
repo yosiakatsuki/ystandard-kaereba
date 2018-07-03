@@ -1,0 +1,16 @@
+$breakpoints-setting: (
+        tb : 600px,
+        pc : 960px,
+) !default;
+
+@mixin media-breakpoint($name,$breakpoints:$breakpoints-setting) {
+  $breakpoint: map-get($breakpoints, $name);
+  @if $breakpoint {
+    @media screen and (min-width: $breakpoint) {
+      @content;
+    }
+  } @else {
+    @warn "`#{$name}` is not found. "
+				+ "Please make sure it is defined in `$breakpoints-setting` map.";
+  }
+}
