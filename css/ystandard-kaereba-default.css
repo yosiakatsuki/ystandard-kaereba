@@ -5,6 +5,24 @@
 	border: 1px solid #bdc3c7;
 }
 
+.kaerebalink-box:before,
+.kaerebalink-box:after,
+.booklink-box:before,
+.booklink-box:after {
+	content: "";
+	display: table;
+}
+
+.kaerebalink-box:after,
+.booklink-box:after {
+	clear: both;
+}
+
+.kaerebalink-box,
+.booklink-box {
+	zoom: 1;
+}
+
 .kaerebalink-image,
 .booklink-image {
 	text-align: center;
