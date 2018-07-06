@@ -8,7 +8,7 @@ function event_tracking() {
         if( kaereba.length <= 0 ){
             continue
         }
-        var anchor = kaereba[0].getElementsByTagName( 'a' )
+        var anchor = kaereba[i].getElementsByTagName( 'a' )
         if( anchor.length <= 0 ){
             continue
         }
