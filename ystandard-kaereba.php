@@ -6,12 +6,12 @@
  * Author URI:      https://yosiakatsuki.net
  * Text Domain:     ystandard-kaereba
  * Domain Path:     /languages
- * Version:         0.1.1
+ * Version:         0.1.2
  *
  * @package         yStandard_Kaereba
  */
 
-define( 'YSTDKAEREBA_VER', '0.1.1' );
+define( 'YSTDKAEREBA_VER', '0.1.2' );
 define( 'YSTDKAEREBA_PATH', plugin_dir_path( __FILE__ ) );
 define( 'YSTDKAEREBA_URL', plugin_dir_url( __FILE__ ) );
 define( 'YSTDKAEREBA_CLASSES_PATH', plugin_dir_path( __FILE__ ) . 'classes/' );

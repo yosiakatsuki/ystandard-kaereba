@@ -9,3 +9,7 @@ yStandard 拡張プラグイン - カエレバ・ヨメレバのCSS追加プラ�
 
 License: MIT
 Source : <https://github.com/YahnisElsts/plugin-update-checker>
+
+## 変更履歴
+
+- 
