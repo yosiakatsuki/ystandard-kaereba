@@ -12,4 +12,5 @@ Source : <https://github.com/YahnisElsts/plugin-update-checker>
 
 ## 変更履歴
 
-- 
+- 0.1.3
+  - イベントトラッキング調整
