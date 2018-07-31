@@ -1,5 +1,6 @@
 .kaerebalink-box,
-.booklink-box {
+.booklink-box,
+.pochireba {
 	margin: 1.5em 0;
 	padding: 2em 1em;
 	border: 1px solid #bdc3c7;
@@ -8,18 +9,22 @@
 .kaerebalink-box:before,
 .kaerebalink-box:after,
 .booklink-box:before,
-.booklink-box:after {
+.booklink-box:after,
+.pochireba:before,
+.pochireba:after {
 	content: "";
 	display: table;
 }
 
 .kaerebalink-box:after,
-.booklink-box:after {
+.booklink-box:after,
+.pochireba:after {
 	clear: both;
 }
 
 .kaerebalink-box,
-.booklink-box {
+.booklink-box,
+.pochireba {
 	zoom: 1;
 }
 
@@ -120,6 +125,34 @@
 .shoplinkrakuten a,
 .shoplinkrakukobo a {
 	background: #BF0000;
+}
+
+.pochireba p {
+	margin: 0;
+}
+
+.pochi_img {
+	float: left;
+	margin-right: 1em;
+}
+
+amp-img.pochi_img {
+	width: 100px;
+	height: auto;
+}
+
+.pochi_info {
+	overflow: hidden;
+}
+
+.pochi_name {
+	font-weight: bold;
+}
+
+.pochi_seller,
+.pochi_time,
+.pochi_post {
+	font-size: .6em;
 }
 
 @media screen and (min-width: 600px) {

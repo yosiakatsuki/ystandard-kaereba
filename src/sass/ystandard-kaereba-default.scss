@@ -1,7 +1,8 @@
 @import "mixins";
 
 .kaerebalink-box,
-.booklink-box {
+.booklink-box,
+.pochireba {
   @include clearfix;
   margin: 1.5em 0;
   padding: 2em 1em;
@@ -100,4 +101,29 @@
 .shoplinkrakuten a,
 .shoplinkrakukobo a {
   background: #BF0000;
+}
+
+.pochireba {
+  p {
+    margin: 0;
+  }
+}
+.pochi_img {
+  float: left;
+  margin-right: 1em;
+}
+amp-img.pochi_img {
+  width: 100px;
+  height: auto;
+}
+.pochi_info {
+  overflow: hidden;
+}
+.pochi_name {
+  font-weight: bold;
+}
+.pochi_seller,
+.pochi_time,
+.pochi_post {
+  font-size: .6em;
 }
