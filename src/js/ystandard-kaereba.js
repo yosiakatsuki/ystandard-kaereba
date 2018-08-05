@@ -2,7 +2,7 @@
  * イベントトラッキング仕込む
  */
 function event_tracking() {
-    var class_list = ['kaerebalink-box', 'booklink-box']
+    var class_list = ['kaerebalink-box', 'booklink-box', 'pochireba']
     for (var i = 0; i < class_list.length; i++) {
         var kaereba = document.getElementsByClassName(class_list[i])
         if (kaereba.length <= 0) {
@@ -20,6 +20,7 @@ function event_tracking() {
     }
 }
 
+
 /**
  * イベントトラッキング実行
  */
@@ -31,13 +32,19 @@ function ga_event() {
      * Amazon判定
      */
     if (null != label.match('/.+www\.amazon\.co\.jp.+/')) {
-        cat = 'kaereba-amazon'
+        cat = cat + '-amazon'
     }
     /**
      * 楽天判定
      */
     if (null != label.match('/.+hb\.afl\.rakuten\.co\.jp.+/')) {
-        cat = 'kaereba-rakuten'
+        cat = cat + '-rakuten'
+    }
+    /**
+     * Apple判定
+     */
+    if (null != label.match('/.+itunes\.apple\.com.+/')) {
+        cat = cat + '-itunes'
     }
     /**
      * イベント送信
