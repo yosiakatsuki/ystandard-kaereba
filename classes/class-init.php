@@ -20,6 +20,7 @@ class Ystd_Kaereba_Init {
 	 */
 	public function load_files() {
 		require_once YSTDKAEREBA_CLASSES_PATH . 'class-enqueue.php';
+		require_once YSTDKAEREBA_CLASSES_PATH . 'class-content.php';
 	}
 
 	/**
@@ -30,6 +31,10 @@ class Ystd_Kaereba_Init {
 		 * enqueue
 		 */
 		$enqueue = new Ystd_Kaereba_Enqueue();
+		/**
+		 * content
+		 */
+		$content = new Ystd_Kaereba_Content();
 		/**
 		 * 管理画面の場合アップデートチェック
 		 */
