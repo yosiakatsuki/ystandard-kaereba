@@ -107,13 +107,6 @@
 	opacity: .8;
 }
 
-.kaerebalink-link1 a:after,
-.booklink-link2 a:after {
-	content: '\f07a';
-	font-family: "Font Awesome 5 Free";
-	margin-left: .5em;
-}
-
 .shoplinkamazon a {
 	background: #FF9900;
 }
