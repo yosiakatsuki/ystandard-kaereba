@@ -12,6 +12,8 @@ Source : <https://github.com/YahnisElsts/plugin-update-checker>
 
 ## 変更履歴
 
+- 0.2.0
+	- Font Awesome 5 対応
 - 0.1.6
   - 空pタグ対処
 - 0.1.5
